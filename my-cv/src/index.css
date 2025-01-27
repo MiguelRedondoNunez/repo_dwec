@@ -1,0 +1,78 @@
+:root {
+  --primary-color: #8a2be2; /* Azul-Violeta */
+  --secondary-color: #9370db; /* Violeta claro */
+  --background-gradient: linear-gradient(135deg, #d9a9ff, #f1e8fc); /* Fondo degradado */
+  --text-color: #ffffff; /* Blanco */
+  --link-color: #ffffff;
+  --link-hover-color: #f1e8fc;
+  --title-color: #000000; /* Negro */
+}
+
+body {
+  background: var(--background-gradient);
+  color: var(--text-color);
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+  color: var(--title-color);
+  font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.section-title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: var(--title-color);
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid var(--title-color);
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+a {
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+.footer {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 20px 0;
+}
+
+.navbar {
+  background-color: var(--secondary-color);
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: var(--primary-color);
+}
+
+.card-title {
+  color: var(--primary-color);
+}
+
+.card-text {
+  font-size: 1.1rem;
+}
